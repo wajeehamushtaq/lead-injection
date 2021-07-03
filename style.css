@@ -76,14 +76,6 @@ button{
     width: 100%;
 }
 
-/* .service-row-1{
-    width: 60%;
-}
-
-.service-row-2{
-    width: 40%;
-} */
-
 #projects{
     background-image: url("https://images.wallpaperscraft.com/image/leaves_drops_dew_129757_300x168.jpg");
 }
@@ -112,10 +104,6 @@ button{
     text-align: center;
     color:white;
 }
-
-/* .projects-img img{
-    width: 30%;
-} */
 
 .navbar{
     background-color: #8CB402;
@@ -209,38 +197,6 @@ img{
     background-color: rgb(47, 53, 47);
 }
 
-
-/* .carousel-span-1 h2 {
-    color: honeydew;
-    text-align: left;
-    visibility: visible;
-    text-align: inherit;
-    line-height: 50px;
-    font-weight: 900;
-    font-family: 'Benne', serif;
-}
-
-.carousel-span-1 h3{
-    color: #8CB402;
-    padding-bottom: 36px;
-    text-align: left;
-    font-family: Open Sans;
-    visibility: visible;
-    text-align: left;
-    line-height: 15px;
-    font-weight: 700;
-}
-.carousel-span-2 button{
-    font-weight: bold;
-    font-size: 20px;
-    height: 77px;
-    border-radius: 10px;
-    width: 300px;
-    background-color: #8CB402;
-    border: none;
-    color: white;
-} */
-
 .carousel-span-2 i, .map-height i, .contact-icon i{
     color:white;
 }
@@ -259,13 +215,6 @@ h4{
 
 .contact-icon {
     background-color: #8CB402;
-    /* border-radius: 50%;
-    position: relative;
-    display: block;
-    height: auto;
-    max-width: 100%;
-    width: 50%;
-    text-align: center; */
     border-radius: 50%;
     width: 100%;
     padding: 10%;
