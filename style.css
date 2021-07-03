@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row{
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Benne', serif !important;
+    font-size: 16px;
+}
+
+h1,h2{
+    font-size: 1.5rem;
+}
+
+.h3, h3 {
+    font-size: 0.75rem;
+}
+
+p{
+    color: #575756;;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+i{
+    color: #8CB402;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+#copywrite{
+    background-color: #8CB402;
+
+}
+
+.nav-item{
+    margin-left: 5%;
+}
+.nav-item:hover{
+    background-color: #bfce89;
+    margin-left: 5%;
+    color: white;
+}
+.icon-border i{
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #8CB402;
+    padding: 0.5em 0.6em;
+}
+
+.contain{
+    width: 100%;
+}
+
+.container-service{
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+/* .service-row-1{
+    width: 60%;
+}
+
+.service-row-2{
+    width: 40%;
+} */
+
+#projects{
+    background-image: url("https://images.wallpaperscraft.com/image/leaves_drops_dew_129757_300x168.jpg");
+}
+
+#projects h2, #projects h4, #copywrite i, #copywrite p{
+    color: white;
+}
+
+.projects-img img{
+    width: 345px;
+    height: 369px;
+    padding: 31px;
+}
+
+.test-div{
+    background-color: #8CB402;
+    border-radius: 5%; 
+    color: white; 
+    height: 100%; 
+    padding: 5%; 
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+.test-div p, .test-div h5{
+    text-align: center;
+    color:white;
+}
+
+/* .projects-img img{
+    width: 30%;
+} */
+
+.navbar{
+    background-color: #8CB402;
+    color: white;
+}
+
+.header-icon div{
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.navbar span{
+    background-color: white;
+}
+
+.navbar a, .navbar i{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+.carousel-outer-div{
+    position: relative;
+}
+
+.carousel-inner-div h2, .carousel-inner-div h3{
+    font-size: 3vw;
+}
+
+.carousel-inner-div{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    background-color: rgb(47, 53, 47);
+}
+
+.carousel-inner-div button{
+    background-color: #8CB402;
+    color: white;
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+.input button{
+    background-color: #8CB402;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    border: none;
+}
+
+#contact{
+    background-color: rgb(56, 52, 52);
+    color: white;
+}
+
+.map-height button{
+    background-color: #2a2b28;
+    color: white;
+    padding: 1%;
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    border: none;
+}
+
+.carousel-inner-div h3{
+    color: #8CB402;
+}
+
+.carousel-inner-div h2, .carousel-inner-div i, #contact p{
+    color: white;
+}
+
+.carousel-div{
+    display: absolute;
+    top: 20%;
+    border:2px solid red;
+}
+
+.carousel-inner-div div{
+    background-color: rgb(47, 53, 47);
+}
+
+.carousel-span-1{
+    background-color: rgb(47, 53, 47);
+}
+.carousel-span-2{
+    background-color: rgb(47, 53, 47);
+}
+
+
+/* .carousel-span-1 h2 {
+    color: honeydew;
+    text-align: left;
+    visibility: visible;
+    text-align: inherit;
+    line-height: 50px;
+    font-weight: 900;
+    font-family: 'Benne', serif;
+}
+
+.carousel-span-1 h3{
+    color: #8CB402;
+    padding-bottom: 36px;
+    text-align: left;
+    font-family: Open Sans;
+    visibility: visible;
+    text-align: left;
+    line-height: 15px;
+    font-weight: 700;
+}
+.carousel-span-2 button{
+    font-weight: bold;
+    font-size: 20px;
+    height: 77px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #8CB402;
+    border: none;
+    color: white;
+} */
+
+.carousel-span-2 i, .map-height i, .contact-icon i{
+    color:white;
+}
+
+#service h2, h2, #info h4{
+    color: #8CB402;
+}
+
+h4{
+    color: #8CB402;
+}
+
+.contact-icon i{
+    font-size: 1rem;
+}
+
+.contact-icon {
+    background-color: #8CB402;
+    /* border-radius: 50%;
+    position: relative;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 50%;
+    text-align: center; */
+    border-radius: 50%;
+    width: 100%;
+    padding: 10%;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.test-img img{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    border: 5px solid #8CB402;
+}
+
+.question{
+    width: 20%;
+}
+
+#map{
+    background-image: url('https://miro.medium.com/max/4064/1*qYUvh-EtES8dtgKiBRiLsA.png');
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border-bottom: 20px solid #8CB402;
+}
+.map-height{
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    background-color: #8CB402;
+    color: white;
+}
+
+
+section{
+    padding: 1%;
+}
+
+.info{
+    width: 30%;
+}
+
+.radio{
+    background-color: #8CB402;
+    color: white;
+    width: 100%;
+    border-radius: 39px;
+}
+
+li{
+    list-style: none;
+}
+
+.input input{
+    border-radius: 5px;
+    padding-left: 2%;
+    width: 100%;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.text-area{
+    height: 140px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    color: grey;
+}
+
+/* @media screen and (max-width:600) {
+    .header{
+        display: none;
+    }
+} */
+
+/* 
+.equal-lenght div{
+    width: 30%;
+} */
